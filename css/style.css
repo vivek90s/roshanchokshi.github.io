@@ -58,7 +58,7 @@ body {
   margin-top: 1rem;
   color: black;
   font-family: GrotekMed;
-  -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 5px 5px 10px rgba(174, 174, 192, 0.4), -3px -3px 10px #FFFFFF;
 }
 
 path.subunit:hover {
@@ -85,7 +85,7 @@ div.tooltip {
   padding: 2rem;
   color: black;
   font-family: GrotekMed;
-  -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 5px 5px 10px rgba(174, 174, 192, 0.4), -3px -3px 10px #FFFFFF;
 }
 
 th {
@@ -154,10 +154,10 @@ thread {
 }
 
 .btn-icon {
-  background-color: rgba(0, 0, 0, 0.1);
+ box-shadow: 5px 5px 10px rgba(174, 174, 192, 0.4), -3px -3px 10px #FFFFFF;
   padding: 10px;
   margin: 10px;
-  border-radius: 100%;
+  border-radius: 30%;
   transition: 0.3s all ease-in-out;
 }
 
@@ -226,7 +226,7 @@ a:focus {
   align-items: center;
   border-radius: 50px;
   background: #e3eef1;
-  box-shadow: 8px 8px 16px #c8d1d4, -8px -8px 16px #feffff;
+ box-shadow: 5px 5px 10px rgba(174, 174, 192, 0.4), -3px -3px 10px #FFFFFF;
   position: fixed;
   right: 20px;
   bottom: 20px;
